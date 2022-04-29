@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    display: flex;
+    background-color: pink;
+    height: 80px;
+
+}
+
+.container{ 
+    display: flex;
+    justify-content: flex-start;
+}
+
+.nav-link{
+    font-size: 24px;
+    font-family: 'Bebas Neue', cursive;
+}
+.carousel-item{
+    height: 250px;
+    
+}
+.carrousel__contenedor{
+    display: flex;
+    margin: 10%;
+}
+.text__contenedor{
+    margin-top: 5%;
+    margin-left: 30%;
+}
+.texto{
+    font-family: 'Bebas Neue', cursive;
+    display: flex;
+}
+
+.body{
+    position: relative;
+    min-height: 100vh;
+
+}
+.galeria {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 2rem;
+}
+.galeriaImagen {
+    display: flex;
+    width: 250px;
+    height: 250px;
+  align-items: center;
+}
+.imagen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer{
+
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.footerProductos{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: pink;
+}
+
+
+
+
+
+
+
+.footer{
+    display: flex;
+    background-color: pink;
+    height: 80px;
+}
+
+.footer__logo{
+ height: 100px;
+ width: 82px;
+}
+
+
